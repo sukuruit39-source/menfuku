@@ -149,6 +149,8 @@ img { max-width: 100%; display: block; }
 
 /* ---------- Hero ---------- */
 .hero {
+   display: grid;
+  grid-template-columns: 1fr 1fr;
   position: relative;
   padding: 60px 0 100px;
   background:
@@ -307,6 +309,7 @@ img { max-width: 100%; display: block; }
   overflow: hidden;
   box-shadow: var(--shadow-lg);
   animation: blob 8s ease-in-out infinite;
+   opacity: 0.5;
 }
 @keyframes blob {
   0%, 100% { border-radius: 40% 60% 55% 45% / 50% 45% 55% 50%; }

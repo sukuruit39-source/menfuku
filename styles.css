@@ -933,7 +933,7 @@ section {
 }
 .pricing-list li::before {
   content: "✓";
-  color: var(--green-600);
+  color: red;
   font-weight: 700;
 }
 @media (max-width: 640px) {

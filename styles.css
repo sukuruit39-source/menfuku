@@ -174,7 +174,7 @@ img { max-width: 100%; display: block; }
 
 .hero-visual {
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 
 .main-img {

@@ -162,7 +162,7 @@ img { max-width: 100%; display: block; }
   gap: 48px;
 }
 
-/*
+
 .hero-copy,
 .hero-visual {
   flex: 1;
@@ -177,7 +177,6 @@ img { max-width: 100%; display: block; }
   display: flex;
   justify-content: right;
 }
-*/
 
 .main-img {
   width: 100%;
@@ -192,7 +191,6 @@ img { max-width: 100%; display: block; }
   object-fit: cover;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
-
 
 .hero::before, .hero::after {
   content: "";

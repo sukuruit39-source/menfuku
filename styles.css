@@ -131,6 +131,7 @@ img { max-width: 100%; display: block; }
   box-shadow: var(--shadow-sm);
   transition: transform .2s, background .2s;
 }
+
 .header-cta:hover { background: var(--green-600); transform: translateY(-1px); }
 
 .menu-toggle {
@@ -172,7 +173,7 @@ img { max-width: 100%; display: block; }
 .hero-copy {
   max-width: 560px;
 }
-
+/*
 .hero-visual {
   display: flex;
   justify-content: right;
@@ -191,7 +192,7 @@ img { max-width: 100%; display: block; }
   object-fit: cover;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
-
+*/
 .hero::before, .hero::after {
   content: "";
   position: absolute;

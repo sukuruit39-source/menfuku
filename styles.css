@@ -191,7 +191,7 @@ img { max-width: 100%; display: block; }
   overflow: hidden;
   box-shadow: var(--shadow-lg);
   animation: blob 8s ease-in-out infinite;
-  opacity: 0.88; /* 0.5 だと背景っぽく見えすぎる */
+  opacity: 1; /* 0.5 だと背景っぽく見えすぎる */
 }
 
 .hero-visual .main-img img {
